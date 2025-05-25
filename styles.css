@@ -44,9 +44,9 @@ body {
 
 
 
-/* -- Header -- */
+/* -- Main -- */
 
-header {
+#main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -63,11 +63,11 @@ header {
     padding: 4rem 1.2rem 3.2rem;
 }
 
-    .header__logo {
+    .main__logo {
         width: 17rem;
     }
 
-    .header__content {
+    .main__content {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -81,7 +81,7 @@ header {
         gap: 0.8rem;
     }
 
-        .header__title {
+        .main__title {
             font-size: 2rem;
             font-weight: 800;
             line-height: 2.3rem;
@@ -90,7 +90,7 @@ header {
             text-align: center;
         }
 
-        .header__subtitle {
+        .main__subtitle {
             font-size: 1.6rem;
             font-weight: 500;
             line-height: 1.9rem;
@@ -99,7 +99,7 @@ header {
             text-align: center;
         }
 
-    .header__devices {
+    .main__devices {
         width: 100%;
     }
 
@@ -128,7 +128,7 @@ header {
 
 @media screen and (min-width: 321px) {
 
-    .header__logo {
+    .main__logo {
         width: 26.8rem;
     }
 
@@ -136,16 +136,16 @@ header {
 
 @media screen and (max-width: 480px) and (min-width: 321px) {
 
-    header {
+    #main {
         padding: 4.8rem 1.6rem 3.2rem;
     }
 
-        .header__title {
+        .main__title {
             font-size: 3.2rem;
             line-height: 3.8rem;
         }
 
-        .header__subtitle {
+        .main__subtitle {
             font-size: 2.4rem;
             line-height: 2.8rem;
         }
@@ -154,21 +154,21 @@ header {
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
 
-    header {
+    #main {
         padding: 8.6rem 3.2rem 3.2rem;
     }
 
-        .header__title {
+        .main__title {
             font-size: 4.8rem;
             line-height: 5.6rem;
         }
 
-        .header__subtitle {
+        .main__subtitle {
             font-size: 2.4rem;
             line-height: 2.8rem;
         }
 
-        .header__devices {
+        .main__devices {
             margin-top: 3.2rem;
         }
 
@@ -176,25 +176,25 @@ header {
 
 @media screen and (min-width: 769px) {
 
-    header {
+    #main {
         padding: 10.4rem 3.2rem 6.4rem;
     }
 
-        .header__content {
+        .main__content {
             gap: 1.6rem;
         }
 
-            .header__title {
+            .main__title {
                 font-size: 8.6rem;
                 line-height: 10.1rem;
             }
 
-            .header__subtitle {
+            .main__subtitle {
                 font-size: 4rem;
                 line-height: 4.7rem;
             }
 
-        .header__devices {
+        .main__devices {
             margin-top: 3rem;
         }
 
@@ -202,7 +202,7 @@ header {
 
 @media screen and (min-width: 1240px) {
 
-    header {
+    #main {
         max-width: calc(117rem + 6.4rem);
         margin: 0 auto;
     }
